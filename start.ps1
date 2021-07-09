@@ -6,7 +6,7 @@ if($val -ne "bjr")
 }else{
   echo "Bienvenue sur le launcher de script !"
 
-  $Prog = Read-Host "Qu'elle logiciel tu veut lancer ?"
-  powershell.exe "D:\Github\StartPowerShell\$Prog.ps1"
+  $Prog = Read-Host "Qu'elle Script tu veut lancer ?"
+  powershell.exe "D:\Github\StartPowerShell\launch\$Prog.ps1"
 
 }
